@@ -111,7 +111,7 @@ suite('Unit Tests', () => {
         const string = 'We watched the footie match for a while.';
         const result = translator.translateBritish(string);
 
-        assert.equal(result, 'We watched <span class="highlight">soccer</span> match for a while.');
+        assert.equal(result, 'We watched the <span class="highlight">soccer</span> match for a while.');
         done();
 
     });
@@ -241,7 +241,7 @@ suite('Unit Tests', () => {
         const string = 'We watched the footie match for a while.';
         const result = translator.translateBritish(string);
 
-        assert.equal(result, 'We watched <span class="highlight">soccer</span> match for a while.');
+        assert.equal(result, 'We watched the <span class="highlight">soccer</span> match for a while.');
         done();
 
     });
