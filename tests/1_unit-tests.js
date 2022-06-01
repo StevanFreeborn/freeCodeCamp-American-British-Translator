@@ -206,16 +206,6 @@ suite('Unit Tests', () => {
 
     });
 
-    test('Translate { Tea time is usually around 4 or 4.30. } to American English', done => {
-        
-        const string = 'Tea time is usually around 4 or 4.30.';
-        const result = translator.translateBritish(string);
-
-        assert.equal(result, 'Tea time is usually around 4 or <span class="highlight">4:30</span>.');
-        done();
-
-    });
-
     test('Highlight differences { Mangoes are my favorite fruit. } when translated to British English', done => {
         
         const string = 'Mangoes are my favorite fruit.';
